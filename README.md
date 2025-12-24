@@ -2,6 +2,11 @@
 
 A private, automated system to track office attendance milestones (e.g., 40% or 60% targets) using **iOS Shortcuts** and **Google Sheets**.
 
+**Tl;dr**
+Only Works for iOS as of now. You just have to say "Hey Siri, Log attendance" and it will give 4 options - Office, Remote, Leave or Check State (Check the percentage of 
+your attendance if it is above 12 week window or Quaterly window both). Just follow the Steps below
+
+
 **Features:**
 
 * **Dual Tracking:** Calculates both "Rolling 12-Week" and "Quarterly" percentages simultaneously.

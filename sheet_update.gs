@@ -3,7 +3,6 @@
  */
 
 // --- CONFIGURATION ---
-var VALID_SECRET = "WorkLogTrack"; // You can put your own Secret here
 var TARGET_PERCENT = 0.60;  // Update the Percentage according to your preference
 // ---------------------
 
@@ -17,10 +16,6 @@ function doPost(e) {
     var params = JSON.parse(e.postData.contents);
   } catch (error) {
     return ContentService.createTextOutput("Error: Invalid JSON");
-  }
-
-  if (params.secret !== VALID_SECRET) {
-    return ContentService.createTextOutput("Error: Wrong Secret Key");
   }
 
   // 2. LOGGING

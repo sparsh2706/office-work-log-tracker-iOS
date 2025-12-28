@@ -1,4 +1,4 @@
-<img width="6944" height="5035" alt="image" src="https://github.com/user-attachments/assets/5077bede-ef57-4a92-9489-fbfb1a096f9a" /># Google Sheets Tab Explanations
+# Google Sheets Tab Explanations
 
 Here is a simple image that explains all the tabs in Google Sheets. Please view it in Light Mode if it isn't legible.
 
